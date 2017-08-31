@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:padding="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/borders"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Type your search here"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:tag="@string/playlist1"
+
+                    android:id="@+id/l"
+                    android:layout_marginTop="15dp"
+                    android:padding="15dp"
+                    android:orientation="horizontal"
+                    android:background="@color/colorGreen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/child5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:textSize="24dp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kidsRythm"/>
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+                        <ImageView
+                            android:src="@drawable/baloon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:tag="@string/playlist2"
+                    android:id="@+id/l2"
+                    android:layout_marginTop="15dp"
+                    android:padding="15dp"
+                    android:orientation="horizontal"
+                    android:background="@color/colorPink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/child4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:textSize="24dp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nursryPoem"/>
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+                        <ImageView
+                            android:src="@drawable/butterfly1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:tag="@string/playlist3"
+                    android:id="@+id/l3"
+                    android:layout_marginTop="15dp"
+                    android:padding="15dp"
+                    android:orientation="horizontal"
+                    android:background="@color/colorSeaGreen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/child3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:textSize="24dp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/LearnColorNames"/>
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+                        <ImageView
+                            android:src="@drawable/baloon1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:tag="@string/playlist4"
+                    android:id="@+id/l4"
+                    android:layout_marginTop="15dp"
+                    android:padding="15dp"
+                    android:orientation="horizontal"
+                    android:background="@color/colorPurple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/child2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:textSize="24dp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/LearnAlphabets"/>
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+                        <ImageView
+                            android:src="@drawable/butterfly2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/l5"
+                    android:tag="@string/playlist5"
+                    android:layout_marginTop="15dp"
+                    android:padding="15dp"
+                    android:orientation="horizontal"
+                    android:background="@color/colorYellow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/child1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:textSize="24dp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/LearnCounting"
+                        android:id="@+id/textView" />
+
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+                        <ImageView
+                            android:src="@drawable/baloon2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
